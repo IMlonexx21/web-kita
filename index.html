@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terbaru</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .login-container, .upload-container {
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background: #45a049;
+        }
+        @media (max-width: 600px) {
+            .container, .login-container, .upload-container {
+                width: 90%;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berita Terbaru</h1>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Politik</a>
+            <a href="#">Olahraga</a>
+            <a href="#">Teknologi</a>
+            <a href="#">Kesehatan</a>
+            <a href="login.html">Login Admin</a> <!-- Tautan ke halaman login -->
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Judul Berita 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. <a href="#">Baca selengkapnya...</a></p>
+        </div>
+        <div class="card">
+            <h2>Judul Berita 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. <a href="#">Baca selengkapnya...</a></p>
+        </div>
+        <div class="card">
+            <h2>Judul Berita 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. <a href="#">Baca selengkapnya...</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Berita Terbaru. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
